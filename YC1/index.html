@@ -11,15 +11,15 @@
     <main>
         <form action="">
             <div>
-                <span>User id:</span> <input type="text" class="user">
+                <span>User id:</span> <input type="text" class="user" required>
                 <div class="invalid_user_id"></div>
             </div>
             <div>
-                <span>Password:</span> <input type="text" class="password">
+                <span>Password:</span> <input type="text" class="password" required>
                 <div class="invalid_password"></div>
             </div>
             <div>
-                <span>Name:</span> <input type="text" class="name">
+                <span>Name:</span> <input type="text" class="name" required>
                 <div class="invalid_name"></div>
             </div>
             <div>
@@ -27,37 +27,37 @@
             </div>
             <div>
                 <span>Country:</span>
-                <select name="" class="country">
-                    <option value="">Country1</option>
-                    <option value="">Country2</option>
+                <select name="" class="country" required>
+                    <option value="">(Please select a country)</option>
+                    <option value="a">Nhật Bản</option>
+                    <option value="b">Việt Nam</option>
                 </select>
-                <div class="empty_error_country"></div>
             </div>
             <div>
                 <span>ZIP Code:</span>
-                <input type="text" class="code"> 
+                <input type="text" class="code" required> 
                 <div class="invalid_code"></div>
             </div>
             <div>
                 <span>Email:</span>
-                 <input type="text" class="email">
+                 <input type="text" class="email" required>
                 <div class="invalid_email"></div>
             </div>
             <div>
                 <span>Sex:</span>
-                <input type="radio" name="chon"> Male
-                <input type="radio" name="chon"> Female
-                <div class="invalid_name"></div>
+                <input type="radio" name="chon" required> Male
+                <input type="radio" name="chon" required> Female
+                
             </div>
             <div>
                 <span>Language:</span>
-                <input type="checkbox"> English
-                <input type="checkbox"> Non English
-                <div class="empty_error_languege"></div>
+                <input type="checkbox" class="checkbox"> English
+                <input type="checkbox" class="checkbox"> Non English
+                
             </div>
             <div>
                 <span>About:</span>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <textarea name="" cols="30" rows="10"></textarea>
             </div>
             <div>
                 <button type="submit">Submit</button>
