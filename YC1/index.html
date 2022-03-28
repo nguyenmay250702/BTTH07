@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <form action="">
+            <div>
+                <span>User id:</span> <input type="text" class="user">
+                <div class="invalid_user_id"></div>
+            </div>
+            <div>
+                <span>Password:</span> <input type="text" class="password">
+                <div class="invalid_password"></div>
+            </div>
+            <div>
+                <span>Name:</span> <input type="text" class="name">
+                <div class="invalid_name"></div>
+            </div>
+            <div>
+                <span>Address:</span> <input type="text" class="address">
+            </div>
+            <div>
+                <span>Country:</span>
+                <select name="" class="country">
+                    <option value="">Country1</option>
+                    <option value="">Country2</option>
+                </select>
+                <div class="empty_error_country"></div>
+            </div>
+            <div>
+                <span>ZIP Code:</span>
+                <input type="text" class="code"> 
+                <div class="invalid_code"></div>
+            </div>
+            <div>
+                <span>Email:</span>
+                 <input type="text" class="email">
+                <div class="invalid_email"></div>
+            </div>
+            <div>
+                <span>Sex:</span>
+                <input type="radio" name="chon"> Male
+                <input type="radio" name="chon"> Female
+                <div class="invalid_name"></div>
+            </div>
+            <div>
+                <span>Language:</span>
+                <input type="checkbox"> English
+                <input type="checkbox"> Non English
+                <div class="empty_error_languege"></div>
+            </div>
+            <div>
+                <span>About:</span>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+            </div>
+            
+        </form>
+    </main>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
